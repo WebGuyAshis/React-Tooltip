@@ -1,0 +1,14 @@
+.tooltip{
+    position: relative;
+}
+
+.tooltip::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: -3px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
